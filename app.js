@@ -180,18 +180,37 @@
 
 // Crie um loop que imprime a tabuada do 5 (de 1 a 10) no console.
 
-let numero5 = 5
-for (let index = 1; index <= 10; index++) {
-  let mult = numero5 * index
-  console.log(`${numero5} x ${index} = ${mult}`);
+// let numero5 = 5
+// for (let index = 1; index <= 10; index++) {
+//   let mult = numero5 * index
+//   console.log(`${numero5} x ${index} = ${mult}`);
 
-}
+// }
 
 // Soma de Números
 
+// let numero = 10
+// for (let index = 1; index <= 10; index++) {
+//   let soma = numero + index
+//   console.log(`${numero} + ${index} = ${soma}`);
+  
+  
+// }
+
+
 // Utilize um loop para somar todos os números de 1 a 100 e imprima o resultado no console.
 
+// let soma = 0
+// for (let index = 1; index <= 100; index++) {
+//   soma += index;
+   
+// }
+// console.log(soma);
+
+
 // Média de Números
+
+
 
 // Crie um loop que calcula a média de todos os números de 1 a 50 e imprima o resultado no console.
 
@@ -200,6 +219,14 @@ for (let index = 1; index <= 10; index++) {
 // Utilize um loop para calcular o fatorial de um número especificado e imprima o resultado no console.
 
 // Soma de Números Pares
+
+let numero = 0
+for (let index = 0; index <= 20; index+=2) {
+  numero += index
+  
+}
+console.log(index);
+
 
 // Crie um loop que calcula a soma de todos os números pares de 1 a 50 e imprima o resultado no console.
 
